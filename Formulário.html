@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="CSS/Formulário.css">
+</head>
+<body background="./img/fundo.png">
+    <div class="cabeçalho">
+        <header class="header">
+            <ins><a><img src="./img/EloisePR.png" alt="image" width="65" height="65"></a></ins>
+            <nav>
+             <ul class="menu">
+                <li><a href="Hobbies.html">Hobbies</a></li>
+                <li><a href="interesses.html">Interesses</a></li>
+                <li><a href="Formulário.html">Formulário</a></li>
+             </ul>
+            </nav>
+        </header>
+    </div>
+    <h1>Formulário de contato</h1>
+    <div class="box">
+        <div class="texto">
+            <form name="meu_form" style="text-align:center">
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="Ex.: Henry Gabriel" required="required" name="nome" />
+                <label for="fone">Telefone</label>  
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                <label for="email">E-mail</label> 
+                <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                <textarea placeholder="Deixe sua opnião"></textarea>
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </form>
+            <ins><h4><a href="./index.html">voltar ao ínicio</a></h4></ins>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+@media only screen and (max-width: 480px) {  img {    width: 100%;  }}
+
+*{
+    box-sizing: border-box; 
+ }
+ 
+ body, ul, li, p{
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+     font-size: 1.2rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: teal;
+ }
+ 
+ h1{
+     text-align: center;
+     margin-top: 50px;
+     color: rgb(127, 161, 255);
+     font-family: Brush Script MT, Brush Script Std, cursive;
+ }
+ 
+ h2{
+     text-align: center;
+     font-family: cursive;
+     font-size: 25px;
+     color: rgb(26, 172, 123);
+ }
+
+ h4{
+    text-align: right;
+ }
+
+ textarea{
+     text-align: center;
+ }
+
+
+ /*CSS Parte do cabeçalho*/
+
+ .cabeçalho{
+     width: 80%;
+     margin: 0 auto;
+     display: grid;
+ }
+ 
+ .header{
+     background: #1d1e287a;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+ }
+ 
+ 
+ .menu{
+     display: flex;
+ }
+ 
+ .menu li {
+     margin-left: 20px;
+ }
+ 
+ .menu li a{
+     display: block;
+     padding: 10px;
+ }
+
+ /*CSS parte GRID*/
+
+.box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    background-position: center;
+}
+
+.texto {
+    grid-area: texto;
+    width: 80%;
+    padding: 10px;
+    background-color: #1d1e287a;
+    color: rgb(178, 190, 190);
+    font-family: cursive;
+    font-size: 13px;
+}
